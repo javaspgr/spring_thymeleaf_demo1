@@ -37,7 +37,7 @@ public class IndexController {
         model.addAttribute("user",user);
         return "index02";
     }
-
+//查询所有
     @RequestMapping("/findAll")
     public  String findAllUser(Model  model){
         User user1 = new User();
